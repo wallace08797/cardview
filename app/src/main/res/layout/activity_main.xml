@@ -8,6 +8,8 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+
+
     <androidx.cardview.widget.CardView android:layout_width="170dp" android:layout_height="120dp"
 
                                        app:cardCornerRadius="20dp"
@@ -18,36 +20,117 @@
                                        android:clickable="true"
                                        app:cardBackgroundColor="@color/black">
 
+
+
+
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
                   android:text="Add a new Task"
                   android:textColor="@color/white"
                   android:textStyle="bold|italic"
                   android:textSize="15sp"
                   android:layout_gravity="center"
-                  android:layout_marginBottom="40dp">
+                  android:layout_marginTop="38dp">
 
         </TextView>
+
+        <com.google.android.material.imageview.ShapeableImageView android:layout_width="100dp" android:layout_height="70dp"
+                                                                  android:layout_gravity="center"
+                                                                  android:layout_marginBottom="15dp"
+                                                                  app:shapeAppearanceOverlay="@style/roundimage"
+                                                                  android:src="@drawable/file1">
+
+        </com.google.android.material.imageview.ShapeableImageView>
+
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView android:layout_width="170dp" android:layout_height="120dp"
-                                app:cardCornerRadius="20dp"
-                                 android:layout_marginLeft="220dp"
+                                       app:cardCornerRadius="20dp"
+                                       android:layout_marginLeft="220dp"
                                        app:contentPaddingTop="10dp"
                                        android:layout_marginTop="100dp"
                                        android:clickable="true"
-                                  app:cardBackgroundColor="@color/black">
+                                       app:cardBackgroundColor="@color/black">
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
                   android:text="Set a reminder "
                   android:textSize="15sp"
-                  android:layout_marginBottom="40dp"
+                  android:layout_marginTop="38dp"
                   android:textStyle="bold|italic"
                   android:textColor="@color/white"
                   android:layout_gravity="center">
         </TextView>
 
+        <com.google.android.material.imageview.ShapeableImageView android:layout_width="77dp" android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:src="@drawable/reminder"
+         app:shapeAppearanceOverlay="@style/roundimage"
+         android:layout_marginBottom="15dp">
+
+        </com.google.android.material.imageview.ShapeableImageView>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView android:layout_width="170dp" android:layout_height="120dp"
+                                       app:cardCornerRadius="20dp"
+                                       app:cardBackgroundColor="@color/black"
+                                       android:layout_marginTop="260dp"
+                                       android:layout_marginLeft="25dp">
+
+        app:cardBackgroundColor="@color/black">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="check your progress "
+                  android:textSize="15sp"
+                  android:layout_marginTop="38dp"
+                  android:paddingLeft="5dp"
+                  android:textStyle="bold|italic"
+                  android:textColor="@color/white"
+                  android:layout_gravity="center">
+        </TextView>
+
+
+        <com.google.android.material.imageview.ShapeableImageView android:layout_width="90dp" android:layout_height="70dp"
+                                                                  android:layout_gravity="center"
+                                                                  android:src="@drawable/status"
+                                                                  app:shapeAppearanceOverlay="@style/roundimage"
+                                                                  android:layout_marginBottom="15dp">
+
+        </com.google.android.material.imageview.ShapeableImageView>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView android:layout_width="170dp" android:layout_height="120dp"
+                                       app:cardCornerRadius="20dp"
+                                       app:cardBackgroundColor="@color/black"
+                                       android:layout_marginTop="260dp"
+                                       android:layout_marginLeft="220dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="View your profile"
+                  android:textSize="15sp"
+                  android:layout_marginTop="38dp"
+                  android:paddingLeft="5dp"
+                  android:textStyle="bold|italic"
+                  android:textColor="@color/white"
+                  android:layout_gravity="center">
+        </TextView>
+
+        <com.google.android.material.imageview.ShapeableImageView android:layout_width="90dp" android:layout_height="65dp"
+                                                                  android:layout_gravity="center"
+                                                                  android:src="@drawable/profile"
+                                                                  app:shapeAppearanceOverlay="@style/roundimage3"
+                                                                  android:layout_marginBottom="15dp">
+
+        </com.google.android.material.imageview.ShapeableImageView>
+
+
+
     </androidx.cardview.widget.CardView>
 
 
 
+
+
+
 </RelativeLayout>
+
+
 
